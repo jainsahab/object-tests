@@ -1,4 +1,5 @@
-package com.tw;
+package com.tw.ArrayListTest;
+import com.tw.Person;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,6 +12,7 @@ public class ArrayListTest {
         list.add(new Object());
         String a = (String)list.get(0);
     }
+
 
     @Test(expected = java.lang.ClassCastException.class)
     public void testGivesExceptionWhenIllegalCast_2() throws ClassCastException {

@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class WrongPersonTest {
+public class WrongEqualandHashcodeTest {
     @Test
     public void test_implementation_of_wrong_equals() throws Exception {
         WrongPerson prateek1 = new WrongPerson("prateek",18);

@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by prateekj on 1/14/14.
  */
-public class compareTest {
+public class CompareTest {
     Person swamiji;
     Person kunal;
     Person digvijay;

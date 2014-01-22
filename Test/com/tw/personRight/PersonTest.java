@@ -127,7 +127,7 @@ public class PersonTest {
     }
 
     @Test
-    public void test_to_check_the_unequality_of_Person_with_hashcode_in_hashMap() throws Exception {
+    public void test_to_check_the_inequality_of_Person_with_hashcode_in_hashMap() throws Exception {
         Map<Integer, Person> map = new HashMap<Integer, Person>();
         map.put(1, prateek1);
         map.put(2, sumit1);
