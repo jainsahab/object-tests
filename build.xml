@@ -16,9 +16,6 @@
         <javac srcdir="Test" destdir="build/classes/test" classpath="build/classes/src;dependencies/junit-4.10.jar" includeantruntime="false" debug="yes"/>
     </target>
 
-
-
-
     <target name="test" depends="compileTest">
         <junit fork="yes" printsummary="on"  haltonfailure="yes" failureProperty="test.failed" dir="." >
             <classpath>
